@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Treasure Hunt Game</title>
+    <link rel="icon" type="image/x-icon" href="https://freesvg.org/img/treasuremap.png">
+  </head>
+  <body>
+    <h1> Donald and Heath's Treasure Hunt Game</h1>
+    <img src="https://freesvg.org/img/treasuremap.png" height="350px" alt="Apple Pie">
+    <h2> The pirates are at it again... help Donald and Heath find the gold doubloons...
+
+      <h3 id="gameRules">Game Rules</h3>
+      <ul>
+          <li>Click on a box to find the treasure!</li>
+          <li>If you click on a bomb, you LOSE...</li>
+      </ul>
+      <div id="gameboard">
+
+      <table border=1>
+        <tr>
+          <td id=0 onclick="treasure(0)">?</td>
+          <td id=1 onclick="treasure(1)">?</td>
+          <td id=2 onclick="treasure(2)">?</td>
+        </tr>
+        <tr>
+          <td id=3 onclick="treasure(3)">?</td>
+          <td id=4 onclick="treasure(4)">?</td>
+          <td id=5 onclick="treasure(5)">?</td>
+        <tr>
+          <td id=6 onclick="treasure(6)">?</td>
+          <td id=7 onclick="treasure(7)">?</td>
+          <td id=8 onclick="treasure(8)">?</td>
+        </tr>
+      </table>
+    </div>
+    <p id="outcome">
+    </p>
+    <footer>
+
+        <a href="https://www.treehugger.com/incredible-treasures-found-with-a-metal-detector-4863671" target="_blank">Click here to see groovy treasures that have been found via metal detector!</a>
+
+        |&copy Donald Fletcher and Heath Haupt | Jumpstart |
+      </footer>
+
+  </body>
+  <script src="game.js">
+
+  </script>
+  </html>
